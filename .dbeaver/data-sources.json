@@ -1,0 +1,42 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-179dd88d7da-42420bb96afee1b5": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "codedecode",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "codedecode",
+				"url": "jdbc:mysql://localhost:3306/codedecode",
+				"home": "mysql_client",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"saved-filters": [
+		{
+			"name": "codedecode",
+			"enabled": true,
+			"include": [
+				"codedecode"
+			]
+		}
+	],
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
